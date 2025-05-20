@@ -23,7 +23,7 @@ public class Ex09_Trapezio {
         return valor;
     }
 
-    public static double calcularArea(double baseMaior, double baseMenor, double altura) {
+    public static double calcularAreaTrapezio(double baseMaior, double baseMenor, double altura) {
         double resultado = ((baseMaior + baseMenor) * altura) / 2;
         return resultado;
     }
@@ -47,7 +47,7 @@ public class Ex09_Trapezio {
         altura = lerValorReal();
         
         //processo
-        areaTrapezio = calcularArea(baseMaior, baseMenor, altura);
+        areaTrapezio = calcularAreaTrapezio(baseMaior, baseMenor, altura);
 
         //saida
         saida = "A área deste trapézio é: " + areaTrapezio + "m²";

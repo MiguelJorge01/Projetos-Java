@@ -28,4 +28,9 @@ public class Util {
         resultado = alturaAndar * qtdAndares;
         return resultado;
     }
+
+    public static double calcularAreaTrapezio(double baseMaior, double baseMenor, double altura) {
+        double resultado = ((baseMaior + baseMenor) * altura) / 2;
+        return resultado;
+    }
 }

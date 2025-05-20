@@ -40,13 +40,13 @@ public class Ex03_ClassificacaoTriangulo {
         double lado3 = 0;
         String tipoTriangulo = null;
 
-        imprimir("Informe o o tamanho do primeiro lado: ");
+        imprimir("Informe o tamanho do primeiro lado: ");
         lado1 = lerValorReal();
 
-        imprimir("Informe o o tamanho do segundo lado: ");
+        imprimir("Informe o tamanho do segundo lado: ");
         lado2 = lerValorReal();
 
-        imprimir("Informe o o tamanho do terceiro lado: ");
+        imprimir("Informe o tamanho do terceiro lado: ");
         lado3 = lerValorReal();
 
         tipoTriangulo = classificarTriangulo(lado1, lado2, lado3);
